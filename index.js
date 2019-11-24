@@ -4,8 +4,6 @@ const bot = new Discord.Client();
 const { HLTV } = require('hltv')
 const dayjs = require('dayjs')
 
-bot.login('NjQ4MjQyMjkzNzMxNzUzOTg0.XdrYyg.rZT942OLaBQNh1zfk8OgP-n5Yco');
-
 bot.on('ready', () => {
     console.info(`Logged in as ${bot.user.tag}!`);
 });
@@ -72,3 +70,5 @@ upc!matches <TIME>: Lista as próximas 10 partidas do time <TIME>
         }
     }
 });
+
+bot.login('NjQ4MjQyMjkzNzMxNzUzOTg0.XdrYyg.rZT942OLaBQNh1zfk8OgP-n5Yco');
