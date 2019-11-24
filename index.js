@@ -1,14 +1,10 @@
 require('dotenv').config();
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-const TOKEN = process.env.TOKEN;
 const { HLTV } = require('hltv')
 const dayjs = require('dayjs')
 
-const TOP_TEAMS = ['Astralis', 'Evil Geniuses', 'fnatic', 'Liquid', '']
-const BR_TEAMS = []
-
-bot.login(TOKEN);
+bot.login('NjQ4MjQyMjkzNzMxNzUzOTg0.XdrYyg.rZT942OLaBQNh1zfk8OgP-n5Yco');
 
 bot.on('ready', () => {
     console.info(`Logged in as ${bot.user.tag}!`);
