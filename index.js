@@ -71,4 +71,4 @@ upc!matches <TIME>: Lista as próximas 10 partidas do time <TIME>
     }
 });
 
-bot.login('NjQ4MjQyMjkzNzMxNzUzOTg0.XdrYyg.rZT942OLaBQNh1zfk8OgP-n5Yco');
+bot.login(process.env.TOKEN);
